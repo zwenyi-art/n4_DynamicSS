@@ -17,7 +17,7 @@ echo "DOMAIN=$user_domain" > $ENV_FILE
 # Continue with the original script to install the service
 
 # Define the service file name
-SERVICE_FILE=my-node-app.service
+SERVICE_FILE=dynamic_ss.service
 
 # Define the target directory for systemd services
 SYSTEMD_DIR=/etc/systemd/system
