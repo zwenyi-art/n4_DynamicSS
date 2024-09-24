@@ -2,7 +2,7 @@ const express = require("express");
 const dynamic_ss_gen = require("./generator/dynamic_ss_gen");
 const { sslOptions } = require("./config/ssl_option");
 const app = express();
-const PORT = 5000;
+const PORT = 443;
 const https = require("https");
 
 app.use(express.static("./public"));
