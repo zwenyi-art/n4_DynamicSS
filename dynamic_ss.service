@@ -1,0 +1,11 @@
+[Unit]
+Description=Dynamic SS Server
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/node /n4_DynamicSS/app.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
