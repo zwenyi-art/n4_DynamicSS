@@ -1,0 +1,33 @@
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.container {
+  width: auto;
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: rgb(95, 226, 43);
+  color: blanchedalmond;
+  font-weight: bolder;
+}
+
+.vpsinfo{
+    width: 10rem;
+    background-color: beige;
+    border: 10px;
+
+}

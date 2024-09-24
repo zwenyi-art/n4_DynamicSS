@@ -1,0 +1,6 @@
+{
+    "server": "atomfree.n4vpn.com",
+    "server_port": 1124,
+    "password": "n4vpnfree",
+    "method": "aes-256-gcm"
+}
